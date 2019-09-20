@@ -732,7 +732,7 @@ section.lazy-placeholder:after {
   opacity:0.3;
 }@isPublish: true;
 
-.cid-rCzHVDRgg0 {
+.cid-rCzNCQZpuE {
 @showLogo: true;
 @logoSize: 3.8;
 @showBrand: true;
@@ -1187,6 +1187,17 @@ nav.opened .hamburger span {
 }
 & when (@bg-type = 'color') {
   background-color: @bg-value;
+}
+}
+
+.cid-rCzN41C7ZW {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
 }
 }
 
